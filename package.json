@@ -1,0 +1,34 @@
+{
+  "name": "@uxland/uxl-style-utilities",
+  "version": "0.0.0-development",
+  "description": "uxl-style-utilities",
+  "main": "uxl-style-utilities.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxland/uxl-style-utilities.git"
+  },
+  "keywords": [
+    "style",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "author": "UXLand",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/uxland/uxl-style-utilities/issues"
+  },
+  "homepage": "https://github.com/uxland/uxl-style-utilities",
+  "files": [
+    "flex-layout-styles.scss",
+    "uxl-units-styles.scss"
+  ],
+  "scripts": {
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

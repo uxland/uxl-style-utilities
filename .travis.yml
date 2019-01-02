@@ -1,0 +1,19 @@
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+dist: trusty
+sudo: required
+notifications:
+  email: false
+node_js: 10
+addons:
+  chrome: stable
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+deploy:
+  provider: script
+  skip_cleanup: true
+  script:
+    - npx semantic-release
