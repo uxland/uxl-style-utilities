@@ -29,7 +29,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
+    "semantic-release": "^15.13.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
