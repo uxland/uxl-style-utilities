@@ -155,7 +155,7 @@
   justify-content: flex-end;
 }
 @mixin layout-around-justified {
-  -ms-flex-pack: distribute;
+  -ms-flex-pack: justify;
   -webkit-justify-content: space-around;
   justify-content: space-around;
 }
