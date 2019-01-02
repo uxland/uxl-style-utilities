@@ -11,7 +11,8 @@
     "style",
     "sass",
     "scss",
-    "css"
+    "css",
+    "polymer"
   ],
   "author": "UXLand",
   "license": "Apache-2.0",
