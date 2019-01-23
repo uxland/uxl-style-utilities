@@ -9,10 +9,18 @@ notifications:
 node_js: 10
 addons:
   chrome: stable
+before_script:
+  - npm i -g polymer-cli
+script:
+  - npm run build
+after_success:
+  - gulp dist
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+    - master
 deploy:
+  on:
+    branch: master
   provider: script
   skip_cleanup: true
   script:
