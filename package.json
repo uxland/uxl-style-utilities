@@ -21,22 +21,15 @@
   },
   "homepage": "https://github.com/uxland/uxl-style-utilities",
   "files": [
-    "flex-layout-styles.scss",
-    "uxl-units-styles.scss"
+    "src/flex-layout-styles.scss",
+    "src/uxl-units-styles.scss"
   ],
   "scripts": {
-    "build": "tsc -p tsconfig.json || echo 'Build completed'",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release",
-    "compile-sass": "sass-render ./*.scss --suffix .ts -t ics-sass-template.js",
-    "dist": "npm run compile-sass && tsc -p gulp/tsconfig-dist.json || echo done && gulp generate-d-ts"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
   },
   "devDependencies": {
-    "dts-generator": "^2.1.0",
-    "gulp": "^4.0.0",
-    "gulp-run": "^1.7.1",
-    "typescript": "^3.2.2"
   }
 }

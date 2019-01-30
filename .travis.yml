@@ -9,12 +9,7 @@ notifications:
 node_js: 10
 addons:
   chrome: stable
-before_script:
-  - npm i -g polymer-cli
-script:
-  - npm run build
-after_success:
-  - gulp dist
+script: "echo 'Test disabled'"
 branches:
   only:
     - master
