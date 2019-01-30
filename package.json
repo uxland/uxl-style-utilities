@@ -31,7 +31,8 @@
     "compile-sass": "sass-render ./*.scss --suffix .ts -t ics-sass-template.js",
     "dist": "npm run compile-sass && tsc -p gulp/tsconfig-dist.json || echo done && gulp generate-d-ts"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
     "dts-generator": "^2.1.0",
     "gulp": "^4.0.0",
