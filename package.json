@@ -22,7 +22,8 @@
   "homepage": "https://github.com/uxland/uxl-style-utilities",
   "files": [
     "src/flex-layout-styles.scss",
-    "src/uxl-units-styles.scss"
+    "src/uxl-units-styles.scss",
+    "src/animations.scss"
   ],
   "scripts": {
     "travis-deploy-once": "travis-deploy-once",
